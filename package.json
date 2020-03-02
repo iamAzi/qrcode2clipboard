@@ -1,0 +1,34 @@
+{
+  "name": "qrcode-copy",
+  "version": "1.0.0",
+  "description": "根据给定链接,生成二维码,并将二维码复制到剪贴板",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "qr": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamAzi/qrcode2clipboard.git"
+  },
+  "keywords": [
+    "clipboard",
+    "qrcode",
+    "copy"
+  ],
+  "author": "Azi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamAzi/qrcode2clipboard/issues"
+  },
+  "homepage": "https://github.com/iamAzi/qrcode2clipboard#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "color-name": "^1.1.4",
+    "commander": "^4.1.1",
+    "img-clipboard": "^1.0.4",
+    "qrcode": "^1.4.4"
+  }
+}
