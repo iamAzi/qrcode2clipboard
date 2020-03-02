@@ -3,7 +3,7 @@
 const commander = require('commander');
 const task = require('./lib/core.js');
 
-commander.version('1.0.2', '-v, --version', 'output the current version');
+commander.version('1.0.0', '-v, --version', 'output the current version');
 
 commander
     .usage('<string> | qr <待生成二维码的链接>')
