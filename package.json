@@ -29,6 +29,7 @@
     "color-name": "^1.1.4",
     "commander": "^4.1.1",
     "img-clipboard": "^1.0.4",
+    "ora": "^4.0.3",
     "qrcode": "^1.4.4"
   }
 }
